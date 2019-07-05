@@ -29,8 +29,8 @@ class AddTodo extends Component {
             <div>
                 <form onSubmit={this.handleSubmit}>
                     <label>Add a new todo and date:</label>
-                    <input type="text" onChange={this.handleChange} value={this.state.content} />
-                    <input type="text" onChange={this.handleDate} value={this.state.date} />
+                    <input type="text" onChange={this.handleChange} value={this.state.content} placeholder="Todo" />
+                    <input type="text" onChange={this.handleDate} value={this.state.date} placeholder="Date" />
                     <button className="center">ADD</button>
                 </form>
             </div>
